@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+textarea {
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding/border don't overflow */
+    resize: vertical;       /* Optional: limits resize to vertical */
+    height: 40vh;
+  }
+.row{
+  margin: auto;
+}
