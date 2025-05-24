@@ -6,7 +6,7 @@
     <div class="col-6">
       <div class="card">
         <div class="card-header bg-success d-flex justify-content-between">
-          <h5>Enter your JSON</h5>
+          <h5 class="m-auto text-light">Enter your JSON</h5>
           <button class="btn btn-warning" (click)="reset()">
             🔄
           </button>
@@ -24,7 +24,7 @@
     <div class="col-6">
       <div class="card">
         <div class="card-header bg-success">
-          <h5>{{resultHeader}}</h5>
+          <h5 class="mx-auto my-2 text-light">{{resultHeader}}</h5>
         </div>
         <div class="card-body">
           <textarea class="form-control" name="json" id="json" [value]="tsText"

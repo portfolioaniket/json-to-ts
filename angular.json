@@ -96,7 +96,8 @@
         },
         "deploy": {
           "builder": "angular-cli-ghpages:deploy", "options": {
-            "baseHref": "/json-to-ts/"
+            "baseHref": "/json-to-ts/",
+            "buildTarget": "jsonToTS:build:production"
           }
         }
       }
